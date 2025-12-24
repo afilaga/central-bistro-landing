@@ -33,7 +33,7 @@ const LoyaltySection: React.FC = () => {
             <span className="italic font-light">семьи Central Bistro</span>
           </h2>
           <p className="text-slate-500 text-lg max-w-md">
-            Регистрируйтесь в нашей системе лояльности и наслаждайтесь особенным отношением при каждом визите.
+            Регистрируйтесь в нашей системе лояльности и получайте свежую информацию об эксклюзивных предложениях, гастрономических ужинах и копите баллы.
           </p>
 
           <div className="space-y-4 pt-4">
