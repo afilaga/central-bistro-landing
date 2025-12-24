@@ -1,20 +1,97 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🍽️ Central Bistro — Landing Page
 
-# Run and deploy your AI Studio app
+Премиальная посадочная страница для бистро **Central Bistro** в Сочи с современными анимациями и 3D-эффектами.
 
-This contains everything you need to run your app locally.
+![Central Bistro](https://img.shields.io/badge/React-19.2.3-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-6.2.0-646CFF?logo=vite)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.23-FF0055)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1iOWde4-m82qYlUfb04iHGqGP75ygal7i
+## ✨ Особенности
 
-## Run Locally
+- 🎨 **Premium дизайн** с 3D liquid-анимациями на фоне
+- ✨ **Интерактивная карточка лояльности** с эффектами свечения и бликов
+- 📱 **Полностью адаптивный** дизайн (mobile-first)
+- ⚡ **Супер-быстрая** загрузка благодаря Vite
+- 🎭 **Плавные анимации** на Framer Motion
+- 🖼️ **Оптимизирован для iframe** (X-Frame-Options: ALLOWALL)
 
-**Prerequisites:**  Node.js
+## 🚀 Быстрый старт
 
+### Установка
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+```
+
+### Разработка
+
+```bash
+npm run dev
+```
+
+Откроется: [http://localhost:3000](http://localhost:3000)
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## 📦 Деплой на Vercel
+
+### Через CLI:
+
+```bash
+npx vercel
+```
+
+### Через Dashboard:
+
+1. Перейдите на [vercel.com/new](https://vercel.com/new)
+2. Подключите этот репозиторий
+3. Deploying автоматом! 🚀
+
+## 🛠️ Технологии
+
+- **React 19** — UI библиотека
+- **TypeScript** — типизация
+- **Vite** — сборщик
+- **Framer Motion** — анимации
+- **Lucide React** — иконки
+- **Tailwind CSS** (утилиты) — стилизация
+
+## 📁 Структура
+
+```
+├── components/
+│   ├── Header.tsx          # Шапка с контактами
+│   ├── Hero.tsx            # Hero секция
+│   ├── LoyaltySection.tsx  # Карточка лояльности с эффектами
+│   ├── FeedbackSection.tsx # Отзывы
+│   ├── Footer.tsx          # Подвал
+│   ├── LiquidBackground.tsx # 3D жидкий фон
+│   └── Logo.tsx            # Компонент логотипа
+├── public/                 # Статические файлы (логотипы)
+├── vercel.json            # Конфиг для Vercel
+└── vite.config.ts         # Конфиг Vite
+```
+
+## 🎯 SEO
+
+- ✅ Semantic HTML5
+- ✅ Оптимизированные meta теги
+- ✅ Open Graph для соцсетей
+- ✅ Быстрая загрузка (339KB gzip: 107KB)
+
+## 📞 Контакты
+
+**Central Bistro**  
+📍 Воровского, 35А, Сочи  
+📞 +7 (988) 286-66-99  
+🌐 [bistro-central.ru](https://bistro-central.ru)
+
+---
+
+Сделано с ❤️ для Central Bistro
