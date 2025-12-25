@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
             href="https://bistro-central.ru/printmenu"
-            className="inline-block px-5 py-2 rounded-full border border-amber-500/20 bg-amber-50/30 text-amber-800 text-xs font-bold tracking-[0.2em] uppercase mb-8 transition-colors duration-300 hover:bg-amber-100/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400/60"
+            className="inline-block px-7 py-2.5 rounded-full border border-amber-500/20 bg-amber-50/30 text-amber-800 text-sm font-bold tracking-[0.2em] uppercase mb-8 transition-colors duration-300 hover:bg-amber-100/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400/60"
           >
             МЕНЮ
           </motion.a>

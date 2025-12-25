@@ -39,7 +39,13 @@ const Header: React.FC = () => {
           </div>
 
           {/* Messengers only (no Instagram) */}
-          <div className="flex items-center gap-0.5">
+          <div className="flex items-center gap-2">
+            <a
+              href="https://bistro-central.ru/printmenu"
+              className="inline-flex items-center justify-center px-3 py-1.5 rounded-full border border-amber-500/20 bg-amber-50/40 text-amber-800 text-[10px] md:text-[11px] font-bold tracking-[0.2em] uppercase transition-colors duration-300 hover:bg-amber-100/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400/60"
+            >
+              Меню
+            </a>
             <a href="https://wa.me/+79882866699" target="_blank" rel="noopener noreferrer" className="p-1.5 rounded-full hover:bg-amber-50 transition-colors text-slate-600" title="WhatsApp">
               <MessageCircle size={16} />
             </a>
