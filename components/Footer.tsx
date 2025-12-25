@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, MapPin, Phone, Globe, MessageCircle, Send, Instagram } from 'lucide-react';
+import { Mail, MapPin, Phone, Globe, MessageCircle, Send } from 'lucide-react';
 import Logo from './Logo';
 
 const Footer: React.FC = () => {
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
               <li className="flex items-center gap-4 pt-4">
                 <a href="https://wa.me/+79882866699" target="_blank" className="p-2.5 bg-white/5 rounded-full hover:bg-amber-500/20 hover:text-white transition-all"><MessageCircle size={18} /></a>
                 <a href="https://t.me/+79882866699" target="_blank" className="p-2.5 bg-white/5 rounded-full hover:bg-amber-500/20 hover:text-white transition-all"><Send size={18} /></a>
-                <a href="https://www.instagram.com/central.bistro.sochi/" target="_blank" className="p-2.5 bg-white/5 rounded-full hover:bg-amber-500/20 hover:text-white transition-all"><Instagram size={18} /></a>
+
               </li>
             </ul>
           </div>

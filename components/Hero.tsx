@@ -16,14 +16,15 @@ const Hero: React.FC = () => {
           {/* Main Brand Logo from file */}
           <Logo className="w-64 md:w-80 mb-12" variant="dark" />
           
-          <motion.div
+          <motion.a
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            className="inline-block px-5 py-2 rounded-full border border-amber-500/20 bg-amber-50/30 text-amber-800 text-xs font-bold tracking-[0.2em] uppercase mb-8"
+            href="https://bistro-central.ru/printmenu"
+            className="inline-block px-5 py-2 rounded-full border border-amber-500/20 bg-amber-50/30 text-amber-800 text-xs font-bold tracking-[0.2em] uppercase mb-8 transition-colors duration-300 hover:bg-amber-100/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400/60"
           >
-            Скоро новое меню
-          </motion.div>
+            МЕНЮ
+          </motion.a>
 
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
