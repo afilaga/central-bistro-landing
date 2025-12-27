@@ -184,6 +184,8 @@ npm run preview
 6. ✅ Added premium effects to loyalty card
 7. ✅ Updated loyalty description text
 8. ✅ Removed "European Bistro" from card
+9. ✅ Added `robots.txt` for Vercel & verified Tilda SEO in Yandex Webmaster
+10. ✅ Submitted `/allmenubackend` for priority indexing
 
 ---
 
@@ -196,6 +198,17 @@ When working on this project:
 - **Maintain performance** - keep bundle size reasonable
 - **Ask before major changes** - especially to design/layout
 - **Commit often** - use semantic commit messages
+
+### Menu Data Exports (External Assets)
+- Source menus live outside this repo in `../Menu`
+- Aggregator exports in `../Menu`:
+  - `price-list-food.xml` (Yandex XML with placeholder image)
+  - `price-list-food.xls` (Yandex XLS)
+  - `Price_2GIS_Food.xlsx` (2GIS XLSX)
+- Tilda import with variants and SEO in `../Menu/tilda-menu-variants-seo.csv`
+- SEO master CSV in `../Menu/master-menu-seo.csv`
+- Breakfast items grouped under a single category `Завтраки`
+- Specific pastry items moved to `Десерты` (not in `Завтраки`)
 
 ### Semantic Commits
 - `feat:` - New feature
