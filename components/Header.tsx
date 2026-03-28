@@ -41,7 +41,7 @@ const Header: React.FC = () => {
           {/* Messengers only (no Instagram) */}
           <div className="flex items-center gap-2">
             <a
-              href="https://bistro-central.ru/printmenu"
+              href="https://menu.bistro-central.ru/"
               className="inline-flex items-center justify-center px-3 py-1.5 rounded-full border border-amber-500/20 bg-amber-50/40 text-amber-800 text-[10px] md:text-[11px] font-bold tracking-[0.2em] uppercase transition-colors duration-300 hover:bg-amber-100/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400/60"
             >
               Меню
