@@ -2,7 +2,6 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import LoyaltySection from './components/LoyaltySection';
 import FeedbackSection from './components/FeedbackSection';
 import Footer from './components/Footer';
 import LiquidBackground from './components/LiquidBackground';
@@ -16,7 +15,6 @@ const App: React.FC = () => {
         <Header />
         <main className="flex-grow">
           <Hero />
-          <LoyaltySection />
           <FeedbackSection />
         </main>
         <Footer />

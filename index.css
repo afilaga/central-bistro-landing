@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&family=Varela+Round&display=swap');
+
 /* Central Bistro - Base Styles */
 
 * {
@@ -11,9 +13,22 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #2d2a26;
+  background: radial-gradient(circle at 15% 20%, #f4ecdf 0%, transparent 34%),
+    radial-gradient(circle at 85% 15%, #efe7db 0%, transparent 30%),
+    linear-gradient(160deg, #faf6ef 0%, #fdfbf7 52%, #f7f1e8 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Varela Round', 'Nunito Sans', sans-serif;
 }
 
 /* Custom scrollbar */
@@ -36,6 +51,6 @@ body {
 
 /* Selection styles */
 ::selection {
-  background-color: rgba(251, 191, 36, 0.2);
+  background-color: rgba(245, 158, 11, 0.2);
   color: #78350f;
 }

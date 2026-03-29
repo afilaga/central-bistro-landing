@@ -34,7 +34,7 @@ const LiquidBackground: React.FC = () => {
   return (
     <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
       {/* Base gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-white to-amber-50/30" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#f8f3ea] via-[#fdfbf7] to-[#f6efe5]" />
 
       {/* Main 3D Sphere - Center with glow */}
       <motion.div
@@ -50,10 +50,10 @@ const LiquidBackground: React.FC = () => {
           transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
         >
           {/* Outer glow ring */}
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-amber-200/20 via-transparent to-amber-100/10 blur-[80px]" />
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-amber-200/20 via-transparent to-orange-100/12 blur-[80px]" />
 
           {/* Main sphere with 3D gradient */}
-          <div className="absolute inset-[15%] rounded-full bg-gradient-to-br from-white via-amber-50/60 to-amber-100/40 shadow-[inset_-40px_-40px_80px_rgba(251,191,36,0.15),inset_40px_40px_80px_rgba(255,255,255,0.9)]" />
+          <div className="absolute inset-[15%] rounded-full bg-gradient-to-br from-white via-amber-50/50 to-stone-100/35 shadow-[inset_-40px_-40px_80px_rgba(176,145,109,0.18),inset_40px_40px_80px_rgba(255,255,255,0.9)]" />
 
           {/* Highlight on sphere */}
           <div className="absolute top-[20%] left-[20%] w-[30%] h-[30%] rounded-full bg-white/70 blur-[30px]" />
@@ -78,10 +78,10 @@ const LiquidBackground: React.FC = () => {
           transition={{ duration: 18, repeat: Infinity, ease: "easeInOut", delay: 1 }}
         >
           {/* Orb glow */}
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-100/40 via-slate-100/30 to-transparent blur-[60px]" />
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-stone-100/45 via-amber-50/25 to-transparent blur-[60px]" />
 
           {/* Orb body */}
-          <div className="absolute inset-[10%] rounded-full bg-gradient-to-br from-white via-blue-50/50 to-slate-100/40 shadow-[inset_-25px_-25px_50px_rgba(100,150,200,0.1),inset_25px_25px_50px_rgba(255,255,255,0.8)]" />
+          <div className="absolute inset-[10%] rounded-full bg-gradient-to-br from-white via-stone-50/45 to-amber-50/35 shadow-[inset_-25px_-25px_50px_rgba(162,136,106,0.14),inset_25px_25px_50px_rgba(255,255,255,0.85)]" />
 
           {/* Orb highlight */}
           <div className="absolute top-[15%] left-[20%] w-[25%] h-[25%] rounded-full bg-white/80 blur-[20px]" />
@@ -103,10 +103,10 @@ const LiquidBackground: React.FC = () => {
           transition={{ duration: 22, repeat: Infinity, ease: "easeInOut", delay: 2 }}
         >
           {/* Orb glow */}
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-amber-100/50 via-orange-50/30 to-transparent blur-[70px]" />
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-orange-100/45 via-amber-50/35 to-transparent blur-[70px]" />
 
           {/* Orb body */}
-          <div className="absolute inset-[12%] rounded-full bg-gradient-to-br from-white via-amber-50/60 to-orange-50/30 shadow-[inset_-30px_-30px_60px_rgba(251,191,36,0.15),inset_30px_30px_60px_rgba(255,255,255,0.85)]" />
+          <div className="absolute inset-[12%] rounded-full bg-gradient-to-br from-white via-orange-50/55 to-amber-50/35 shadow-[inset_-30px_-30px_60px_rgba(248,170,88,0.15),inset_30px_30px_60px_rgba(255,255,255,0.88)]" />
 
           {/* Orb highlight */}
           <div className="absolute top-[18%] left-[15%] w-[28%] h-[28%] rounded-full bg-white/75 blur-[25px]" />
@@ -128,8 +128,8 @@ const LiquidBackground: React.FC = () => {
           }}
           transition={{ duration: 15, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
         >
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-emerald-50/40 via-teal-50/20 to-transparent blur-[40px]" />
-          <div className="absolute inset-[15%] rounded-full bg-gradient-to-br from-white via-emerald-50/40 to-teal-50/20 shadow-[inset_-15px_-15px_30px_rgba(100,200,180,0.1),inset_15px_15px_30px_rgba(255,255,255,0.9)]" />
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-stone-100/35 via-amber-50/20 to-transparent blur-[40px]" />
+          <div className="absolute inset-[15%] rounded-full bg-gradient-to-br from-white via-stone-50/35 to-amber-50/20 shadow-[inset_-15px_-15px_30px_rgba(160,140,110,0.1),inset_15px_15px_30px_rgba(255,255,255,0.9)]" />
           <div className="absolute top-[20%] left-[25%] w-[20%] h-[20%] rounded-full bg-white/80 blur-[12px]" />
         </motion.div>
       </motion.div>
@@ -148,16 +148,16 @@ const LiquidBackground: React.FC = () => {
           }}
           transition={{ duration: 17, repeat: Infinity, ease: "easeInOut", delay: 3 }}
         >
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-rose-50/30 via-pink-50/20 to-transparent blur-[35px]" />
-          <div className="absolute inset-[12%] rounded-full bg-gradient-to-br from-white via-rose-50/30 to-pink-50/15 shadow-[inset_-12px_-12px_24px_rgba(200,100,150,0.08),inset_12px_12px_24px_rgba(255,255,255,0.9)]" />
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-amber-50/30 via-stone-50/20 to-transparent blur-[35px]" />
+          <div className="absolute inset-[12%] rounded-full bg-gradient-to-br from-white via-amber-50/30 to-stone-50/15 shadow-[inset_-12px_-12px_24px_rgba(171,145,116,0.08),inset_12px_12px_24px_rgba(255,255,255,0.9)]" />
           <div className="absolute top-[22%] left-[20%] w-[22%] h-[22%] rounded-full bg-white/85 blur-[10px]" />
         </motion.div>
       </motion.div>
 
       {/* Floating glass-like particles */}
-      {[...Array(6)].map((_, i) => (
+      {[12, 24, 36, 48, 60, 72].map((seed, i) => (
         <motion.div
-          key={i}
+          key={seed}
           className="absolute rounded-full bg-white/40 backdrop-blur-sm shadow-sm hidden md:block"
           style={{
             width: 8 + i * 4,
@@ -181,7 +181,7 @@ const LiquidBackground: React.FC = () => {
       ))}
 
       {/* Subtle mesh gradient overlay for depth */}
-      <div className="absolute inset-0 opacity-30 bg-[radial-gradient(ellipse_at_top,rgba(251,191,36,0.1)_0%,transparent_50%),radial-gradient(ellipse_at_bottom_right,rgba(100,150,200,0.08)_0%,transparent_40%)]" />
+      <div className="absolute inset-0 opacity-30 bg-[radial-gradient(ellipse_at_top,rgba(245,158,11,0.12)_0%,transparent_52%),radial-gradient(ellipse_at_bottom_right,rgba(71,85,105,0.08)_0%,transparent_44%)]" />
 
       {/* Noise texture for premium feel */}
       <div className="absolute inset-0 opacity-[0.015] mix-blend-overlay pointer-events-none" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=\'0 0 256 256\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noise\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'4\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noise)\'/%3E%3C/svg%3E")' }} />
