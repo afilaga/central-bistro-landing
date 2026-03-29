@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
               <p>ОГРН: 1252300042818</p>
               <p>ИНН: 2366055372</p>
               <p>КПП: 236601001</p>
-              <p className="pt-4 text-[10px] opacity-40">© 2025 Все права защищены</p>
+              <p className="pt-4 text-[10px] opacity-40">© 2026 Все права защищены</p>
             </div>
           </div>
         </div>
